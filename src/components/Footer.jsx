@@ -9,13 +9,7 @@ const Footer = () => {
       <div className="footer">
         <Link to="/">
           {' '}
-          <img
-            className="footer-logo"
-            src={logo}
-            alt="Open Mastery Logo"
-            width="100"
-            height="100"
-          />
+          
         </Link>
 
         <SocialLinks styleClass="footer-icons" />
@@ -33,7 +27,7 @@ const Footer = () => {
         </div>
 
         <p className="footer-copyright">
-          &copy;2022-{new Date().getFullYear()} Revista. All rights reserved.
+          &copy;2024-{new Date().getFullYear()} Gracious All rights reserved.
         </p>
       </div>
     </FooterStyles>

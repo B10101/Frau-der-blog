@@ -14,16 +14,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
         </button>
         <div className="sidebar-container">
           <Links styleClass="sidebar-links"></Links>
-          <Link
-            className="support-us-link not-blue"
-            target="_blank"
-            rel="noreferrer noopener"
-            to="/support-us"
-
-            // to="https://www.buymeacoffee.com/chrismorrison"
-          >
-            Support Us
-          </Link>
+          
         </div>
       </aside>
     </Wrapper>

@@ -18,15 +18,9 @@ const Navbar = ({ toggle }) => {
         <div className="nav-center">
           <div className="nav-header">
             <Link to="/" className="nav-logo not-blue">
-              <img
-                src={logo}
-                alt="Open Mastery Logo"
-                width="100"
-                height="100"
-              />
               <div className="logo-text">
-                <span className="nav-word-open">Rev</span>
-                <span className="nav-word-ed">ista</span>
+                <span className="nav-word-open">Gr</span>
+                <span className="nav-word-ed">acious</span>
               </div>
             </Link>
 
@@ -41,26 +35,12 @@ const Navbar = ({ toggle }) => {
 
           <Links styleClass="nav-links" />
           {/* <SocialLinks /> */}
-          <Link
-            className="support-us-link not-blue"
-            target="_blank"
-            rel="noreferrer noopener"
-            to="/support-us"
-
-            // to="https://www.buymeacoffee.com/chrismorrison"
-          >
+          <Link>
+          
             {/* <GoHeart className='support-heart'/> */}
-            <StaticImage
-            class="support-heart"
-                src="../assets/heart.png"
-                alt="Open Source Illustration"
-                layout="constrained"
-                placeholder="blurred"
-                width='19'
-                height='19'
-              />
+           
             {/* <img src={Heart} alt="" class="support-heart" /> */}
-            Support Us
+            
           </Link>
         </div>
       </nav>

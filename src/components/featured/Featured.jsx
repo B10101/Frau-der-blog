@@ -11,8 +11,6 @@ const Featured = () => {
       <div className="featured-section container">
         <div className="row">
           <Top />
-          <Trending />
-          <Popular />
         </div>
       </div>
     </FeaturedStyles>

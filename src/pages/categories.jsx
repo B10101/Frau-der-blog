@@ -7,8 +7,8 @@ const categories = () => {
   return (
     <Layout>
       <Seo
-        title="Categories | Revista"
-        description="List of all categories currently on Revista"
+        title="Categories | Gracious"
+        description="List of all categories currently on my blog"
       />
       <AllCategories />
     </Layout>

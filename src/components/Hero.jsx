@@ -24,12 +24,12 @@ const Hero = () => {
       <div className="hero">
         <div className="row">
           <div className="col-lg-7 col-12 hero-text">
-            <h4>Learning Paths and Curated Lists</h4>
+            <h4></h4>
             <h1>
-              <span>Free/Open</span>
-              <br /> Education Resources
+              <span></span>
+              <br /> Welcome to my blog
             </h1>
-            <p>What are you interested in learning?</p>
+            <p>My name is Gracious ,a youth daringly purposing to maneuver through her twenties in ways that seem audacious .I choose to use my first name because ,well, why be too formal? I could very much be the girl next door . Though my given name is Gracious Tehillah .</p>
           </div>
           <div className="col-lg-5 col-12">
             <div className="hero-categories">

@@ -10,8 +10,7 @@ const SidebarWide = () => {
   return (
     <div className="col-lg-4 col-12">
       <SidebarStyles>
-        <About />
-        <Partners />
+       
         <SidebarCategories />
         {/* <SidebarImage/> */}
       </SidebarStyles>
