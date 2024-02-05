@@ -7,12 +7,7 @@ import SidebarCard from './SidebarCard'
 import './sidebar-styles.scss'
 
 const partners = [
-  {
-    name: 'Other site',
-    logo: '',
-    logoAlt: 'Logo for other site',
-    url: 'https://example.com',
-  },
+  
   //
   // {
   //   name: 'Open Journal',
@@ -26,25 +21,9 @@ const Recent = () => {
   return (
     <SidebarCard>
       <Wrapper>
-        <Title title="Our Partners" />
-        <p>Building an open internet together.</p>
-        {partners.map(partner => {
-          return (
-            <div key={partner.name} className="partner">
-              <StaticImage
-                src="../../assets/logo.png"
-                layout="constrained"
-                width={35}
-                alt="author"
-                className="partner-img"
-                placeholder="blurred"
-              />
-              <a target='_blank' rel='noopener noreferrer' className="partner-name" href={partner.url}>
-                {partner.name}
-              </a>
-            </div>
-          )
-        })}
+        <Title title="Aim" />
+        <p>To provide educational content on various aspects of business, such as entrepreneurship, marketing, finance, management, and leadership. </p>
+        
       </Wrapper>
     </SidebarCard>
   )
