@@ -12,7 +12,7 @@ const SocialLinks = () => {
       <ul className="nav-icons">
         <li>
           <a
-            href="https://github.com/chrisnmorrison/revista-gatsby-blog-magazine"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link to Github"
